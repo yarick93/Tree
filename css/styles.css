@@ -1,0 +1,55 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background: url(/img//Churki.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav{
+    width: 90%;
+    height: 150px;display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+.nav_items{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerItem{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+}
+.headerItemText{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.headerItemText h1{
+    color: white;
+    font-size: 130px;
+}
+.headerItemText p{
+    color: #FFDBBB;
+    font-size: 60px;
+}
+.headerItemButton{
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background: #728BAD;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
