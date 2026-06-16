@@ -11,6 +11,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -18,7 +23,7 @@
     <header>
       <nav>
         <div class="Logo">
-          <img src="/Tree/img/logo.png" alt="" />
+          <img src="img/logo.png" alt="" />
         </div>
         <div class="nav_items">
           <a href="">
@@ -128,13 +133,39 @@
       </div></div>
     </aside>
     <main>
-      <h1>Our WORK</h1>
-    </main>
-    <section></section>
+      <h1>OUR WORK</h1>
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork1.png" alt=""></div>
+    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork2.png" alt=""></div>
+    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork3.png" alt=""></div>
+  </div>
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  </div>
+</main>
+    <section>
+      <h1>Advantages <br>
+working with us</h1>
+<div class="sectionItem">
+  <img src="img/video.png" alt="" class="sectionItemImg">
+  <div class="sectionItemText">
+    <p>In-house carpentry production</p>
+    <p>We only treat wood with environmentally friendly and safe products</p>
+    <p>Prices from the manufacturer, no extra charges</p>
+  </div>
+  <button class="sectionItemButton">
+    Receive a consultation
+  </button>
+</div>
+    </section>
     <div class="aboutUs"></div>
     <div class="contact"></div>
     <footer></footer>
   </div>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
