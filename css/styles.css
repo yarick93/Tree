@@ -17,7 +17,7 @@ body::before {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    z-index: 9999;
+    z-index: 10;
     pointer-events: none;
 }
 
@@ -344,4 +344,91 @@ position: absolute;
     height: 200px;
     top: 580px;
     left: 220px;
+}
+
+.contact{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    height: 800px;
+    gap: 150px;
+    position: relative;
+}
+.contact h1{
+     width: 100%;
+     text-align: center;
+     color: white;
+     font-size: 110px;
+}
+.contactForm{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    flex-wrap: wrap;
+    
+}
+.contactInput{
+    width: 80%;
+    background: none;
+    border: 3px solid #728BAD;
+    border-radius: 25px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 25px;
+        color: rgb(255, 255, 255);
+
+}
+.contactInput::placeholder{
+    color: rgb(202, 202, 202);
+}
+input:focus {
+  outline: none;
+}
+.questionInput{
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    padding-top:15px ;
+      color: rgb(255, 255, 255);
+}
+.sendButton{
+    width: 20%;
+    height: 50px;
+    background: #728BAD;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+}
+.contactText{
+    width: 40%;
+    height: 60%;
+    color: white;
+    font-size: 40px;
+}
+.footerWoodImg{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 65%;
+    z-index: -1;
+    left: 60%;
+}
+footer{
+    width: 100%;
+    background: #222021;
+    height: 200px;
+    z-index:11 ;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+.footerItem{
+    width: 18%;
 }
