@@ -288,3 +288,60 @@ section h1{
 .sectionItemText p{
     width: 70%;
 }
+.aboutUs{
+    width: 90%;
+        background: #1E0C06;
+    height: 800px;
+     box-shadow: 1px 1px 10px white;
+    border-radius: 0 30px 30px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.aboutUsText{
+    width: 40%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.aboutUsText h1{
+    font-size: 120px;
+    color: white;
+}
+.aboutUsText p{
+text-align: left;
+font-size: 37px;
+color: white;
+}
+.aboutUsImgs{
+    width: 40%;
+    height: 80%;
+    position: relative;
+}
+.aboutUsImg{
+    width: 250px;
+    height: 250px;
+position: absolute;    
+}
+.aboutUsImg1{
+    width: 350px;
+    height: 350px;
+    z-index: 2;
+    top: 200px;
+}
+.aboutUsImg2{
+    width: 180px;
+    height: 180px;
+    top: 110px;
+    left: 230px;
+}
+.aboutUsImg3{
+    width: 200px;
+    height: 200px;
+    top: 580px;
+    left: 220px;
+}
