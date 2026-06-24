@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Smooch+Sans:wght@100..900&display=swap"
-    rel="stylesheet">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/gallery.css">
+      <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-</head>
 
+</head>
 <body>
-  <div class="wrapper">
-    <header>
-      <nav>
+    <div class="wrapper">
+         <nav>
         <div class="Logo">
           <img src="img/logo.png" alt="" />
         </div>
         <div class="nav_items">
-          <a href="gallery.html">
+          <a href="">
             <div class="navItem">Gallery</div>
           </a>
           <a href="">
@@ -37,21 +30,21 @@
           </a>
         </div>
       </nav>
-      <div class="headerItem">
-        <div class="headerItemText">
-          <h1>Solid wood products</h1>
-          <p>Oak, beech, ash from <span>1700 CZK</span> per m3</p>
-          <button class="headerItemButton">Order</button>
-        </div>
-        <div class="headerLine"></div>
-        <div class="headerItemsImg">
-          <img src="./img/HeaderImage1.png" alt="" class="HeaderImage HeaderImgFirst">
-          <img src="./img/HeaderImage2.png" alt="" class="HeaderImage HeaderImgSecond">
-          <img src="./img/HeaderImage3.png" alt="" class="HeaderImage HeaderImgThird">
-        </div>
-      </div>
-    </header>
-    <aside>
+       <main>
+      <h1>OUR WORK</h1>
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork1.png" alt=""></div>
+    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork2.png" alt=""></div>
+    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork3.png" alt=""></div>
+  </div>
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  </div>
+</main>
+ <aside>
       <h1>THE WOOD WE WORK WITH</h1>
       <div class="asideItem">
         <img src="./img//Oak.png" alt="">
@@ -129,47 +122,7 @@
         </p>
       </div></div>
     </aside>
-    <main>
-      <h1>OUR WORK</h1>
-<div class="swiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork1.png" alt=""></div>
-    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork2.png" alt=""></div>
-    <div class="swiper-slide"><img class="OurWorkImage" src="img/OurWork3.png" alt=""></div>
-  </div>
-  <div class="swiper-pagination"></div>
-
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-  </div>
-</main>
-    <section>
-      <h1>Advantages <br>
-working with us</h1>
-<div class="sectionItem">
-  <img src="img/video.png" alt="" class="sectionItemImg">
-  <div class="sectionItemText">
-    <p>In-house carpentry production</p>
-    <p>We only treat wood with environmentally friendly and safe products</p>
-    <p>Prices from the manufacturer, no extra charges</p>
-  </div>
-  <button class="sectionItemButton">
-    Receive a consultation
-  </button>
-</div>
-    </section>
-    <div class="aboutUs">
-      <div class="aboutUsText">
-        <h1>ABOUT US</h1>
-        <p>BIO CWT  - We manufacture solid wood products according to individual drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped with all the necessary industrial equipment.</p>
-      </div>
-      <div class="aboutUsImgs">
-        <img src="img/AboutUs1.png" alt="" class="aboutUsImg aboutUsImg1">
-        <img src="img/AboutUs2.png" alt="" class="aboutUsImg aboutUsImg2">
-        <img src="img/AboutUs3.png" alt="" class="aboutUsImg aboutUsImg3">
-      </div>
-    </div>
-    <div class="contact">
+        <div class="contact">
       <h1>ANY QUESTIONS?</h1>
       <div class="contactForm">
         <input class="contactInput" type="text" placeholder="Your Name">
@@ -188,8 +141,7 @@ working with us</h1>
       <div class="footerItem">Na Plzeňce 1166/0
 150 00</div>
     </footer>
-  </div>
-  <script src="js/script.js"></script>
+    </div>
+    <script src="js/script.js"></script>
 </body>
-
 </html>

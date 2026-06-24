@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: #222021;
+    position: relative;
+}
+body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/lines.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+        background: #1E0C06;
+        border-radius: 0 0 60px 60px;
+        box-sizing: border-box
+
+}
+
+.logo {
+    width: 10%;
+    height: 50px;
+}
+
+.nav_items {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_items a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav_item {
+    width: 100%;
+}
+.swiper {
+    width: 80%;
+    height: 700px;
+    position: relative;
+
+}
+.swiper-button-prev {
+    left: 10px;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+.OurWorkImage{
+    border-radius: 25px;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.swiper-wrapper{
+    width: 100%;
+    display: flex;
+}
+.swiper-pagination-bullet {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #ffffff;
+    opacity: 0.5; 
+}
+
+
+.swiper-pagination-bullet-active {
+    width: 25px !important; 
+    height: 25px !important;
+    opacity: 1;
+}
+aside{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    justify-content: space-around;
+    gap: 50px;
+}
+aside h1{
+    width: 100%;
+ text-align: center;   
+ color: white;
+ font-size: 100px;
+}
+.asideItem{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 400px;
+}
+.properties{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 200px;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+.contact{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    height: 800px;
+    gap: 150px;
+    position: relative;
+}
+.contact h1{
+     width: 100%;
+     text-align: center;
+     color: white;
+     font-size: 110px;
+}
+.contactForm{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    flex-wrap: wrap;
+    
+}
+.contactInput{
+    width: 80%;
+    background: none;
+    border: 3px solid #728BAD;
+    border-radius: 25px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 25px;
+        color: rgb(255, 255, 255);
+
+}
+.contactInput::placeholder{
+    color: rgb(202, 202, 202);
+}
+input:focus {
+  outline: none;
+}
+.questionInput{
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    padding-top:15px ;
+      color: rgb(255, 255, 255);
+}
+.sendButton{
+    width: 20%;
+    height: 50px;
+    background: #728BAD;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+}
+.contactText{
+    width: 40%;
+    height: 60%;
+    color: white;
+    font-size: 40px;
+}
+.footerWoodImg{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 65%;
+    z-index: -1;
+    left: 60%;
+}
+footer{
+    width: 100%;
+    background: #222021;
+    height: 200px;
+    z-index:11 ;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+.footerItem{
+    width: 18%;
+}
