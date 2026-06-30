@@ -38,12 +38,18 @@ header {
 }
 
 nav {
-    width: 90%;
+    width: 100%;
     height: 150px;
     display: flex;
     justify-content: space-between;
     padding: 30px;
     align-items: center;
+        background: #1E0C06;
+        border-radius: 0 0 60px 60px;
+        box-sizing: border-box
+        ;
+                margin-bottom: 100px;
+
 }
 
 .logo {
@@ -62,7 +68,6 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    width: 23%;
     text-align: center;
 }
 
@@ -431,4 +436,14 @@ footer{
 }
 .footerItem{
     width: 18%;
+}
+.price-List{
+    width: 100%;
+    height: 500px;display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.priceImg{
+    width: 700px;height: 500px;
 }
